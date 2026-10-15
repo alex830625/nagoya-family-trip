@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f1e8">
+  <title>慢慢去旅行｜名古屋・下呂・高山 5日小旅行</title>
+  <style>
+    :root{--ink:#303b37;--muted:#78827a;--paper:#fbf8f1;--cream:#f2e8d8;--rust:#bf7355;--green:#6f897a;--sage:#dce6dc;--gold:#d5ae68;--line:#e9e1d4;--white:#fffdf9;--shadow:0 18px 45px #493d2a12}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font-family:"Noto Sans TC","Microsoft JhengHei",system-ui,sans-serif;line-height:1.7}
+    a{color:#597767;text-decoration-thickness:1px;text-underline-offset:3px}button{font:inherit}.hero{position:relative;overflow:hidden;background:linear-gradient(115deg,#e9eee4 0%,#f6ead8 52%,#f4ddd0 100%);padding:40px 22px 58px}
+    .hero:before,.hero:after{content:"";position:absolute;border-radius:50%;pointer-events:none}.hero:before{width:420px;height:420px;right:-80px;top:-240px;background:#fff9}.hero:after{width:300px;height:300px;left:-190px;bottom:-225px;background:#d9e4d7aa}
+    .hero-inner{max-width:1120px;margin:auto;position:relative;z-index:1}.eyebrow{font-size:.77rem;letter-spacing:.18em;color:#6c8171;font-weight:700}.hero h1{font-family:Georgia,"Noto Serif TC",serif;font-weight:500;font-size:clamp(2.2rem,6vw,4.25rem);line-height:1.18;letter-spacing:.03em;margin:12px 0 12px}.hero p{max-width:650px;margin:0;color:#59665d;font-size:1.02rem}.trip-meta{display:flex;flex-wrap:wrap;gap:10px;margin-top:23px}.pill{border:1px solid #74877642;background:#fff9;border-radius:999px;padding:6px 13px;font-size:.83rem;color:#56675d}.scenery{position:absolute;right:8%;bottom:0;width:min(420px,39vw);height:165px;opacity:.9}.sun{position:absolute;right:73px;top:14px;width:74px;height:74px;border-radius:50%;background:#e8c887}.hill{position:absolute;bottom:-60px;width:120%;height:130px;border-radius:50% 50% 0 0}.hill.one{left:-20%;background:#b6c6ae}.hill.two{left:25%;bottom:-78px;background:#8da993}.castle{position:absolute;right:104px;bottom:34px;width:92px;height:72px;background:#f8f1df;clip-path:polygon(0 30%,14% 30%,14% 14%,28% 14%,28% 0,72% 0,72% 14%,86% 14%,86% 30%,100% 30%,100% 100%,0 100%);filter:drop-shadow(0 4px 2px #45594c33)}.castle:after{content:"";position:absolute;left:43px;top:30px;width:9px;height:38px;background:#b3a282}
+    main{max-width:1120px;margin:-27px auto 0;padding:0 20px 55px;position:relative;z-index:2}.shell{background:var(--white);border:1px solid #eee7dc;border-radius:22px;box-shadow:var(--shadow);overflow:hidden}.date-nav{display:grid;grid-template-columns:repeat(5,1fr);gap:0;border-bottom:1px solid var(--line);background:#fffdfa}.day-tab{border:0;background:transparent;cursor:pointer;padding:17px 8px 15px;color:var(--muted);position:relative;transition:.2s}.day-tab:hover{background:#f8f4ec;color:var(--ink)}.day-tab[aria-selected="true"]{color:#425f50;background:#f1f5ef}.day-tab[aria-selected="true"]:after{content:"";position:absolute;bottom:0;height:3px;background:var(--rust);left:22%;right:22%;border-radius:4px 4px 0 0}.day-tab .date{display:block;font-size:.72rem;letter-spacing:.08em}.day-tab .dow{display:block;font-weight:700;font-size:1.03rem;margin-top:2px}.day-tab .short{display:block;font-size:.72rem;margin-top:1px}
+    .overview{padding:21px 28px 18px;border-bottom:1px solid var(--line);display:flex;align-items:center;justify-content:space-between;gap:14px}.route{font-weight:700;font-size:.96rem}.route span{color:var(--rust);padding:0 7px}.drive-total{color:#63786a;font-size:.82rem;background:#edf3ec;border-radius:999px;padding:7px 12px;white-space:nowrap}.panel{display:none;padding:30px}.panel.active{display:block;animation:fade .28s ease}@keyframes fade{from{opacity:.25;transform:translateY(5px)}to{opacity:1;transform:none}}
+    .day-heading{display:flex;gap:17px;align-items:flex-start;margin-bottom:24px}.day-number{flex:none;width:54px;height:54px;border-radius:18px;background:#f2e5d2;color:#9d694e;display:grid;place-items:center;font:1.3rem Georgia,serif}.day-heading h2{font-family:Georgia,"Noto Serif TC",serif;font-weight:500;font-size:clamp(1.45rem,3.2vw,2rem);line-height:1.35;margin:0}.day-heading p{margin:4px 0 0;color:var(--muted);font-size:.9rem}
+    .scene{height:180px;border-radius:17px;margin:0 0 24px;position:relative;overflow:hidden;background:linear-gradient(180deg,#dce9eb,#f3e7d0 68%,#c9d7c3)}.scene:after{content:"";position:absolute;left:-5%;right:-5%;height:105px;bottom:-53px;border-radius:50%;background:#829b86}.scene:before{content:"";position:absolute;width:90px;height:90px;right:12%;top:22px;border-radius:50%;background:#edca8d}.scene .label{position:absolute;left:20px;bottom:17px;z-index:2;color:#fff;background:#34443b9c;padding:5px 12px;border-radius:999px;font-size:.8rem;letter-spacing:.08em}.scene.gero{background:linear-gradient(180deg,#e8efe7,#e4ddc9 70%,#9bb8a6)}.scene.gero:after{background:#9ab6a2}.scene.gero:before{right:17%;top:36px;width:110px;height:70px;border-radius:50%;background:#faf7edaa;box-shadow:-42px -22px 0 -10px #faf7ed88,-12px -46px 0 -17px #faf7ed88}.scene.takayama{background:linear-gradient(180deg,#dbe9e9,#efe0c9 73%,#91aa94)}.scene.takayama:after{background:#94a98f}.scene.takayama:before{right:18%;top:48px;width:57px;height:84px;border-radius:3px;background:#8c6550;box-shadow:-75px 18px 0 -7px #af8060,72px 13px 0 -5px #bb8c69}.scene.village{background:linear-gradient(180deg,#d6e7e9,#e9e2c9 70%,#a8bc9b)}.scene.village:after{background:#a5ba99}.scene.village:before{right:22%;top:65px;width:76px;height:64px;border-radius:3px;background:#59483d;clip-path:polygon(50% 0,100% 44%,90% 44%,90% 100%,10% 100%,10% 44%,0 44%);box-shadow:none;filter:drop-shadow(-72px 16px 0 #725845) drop-shadow(65px 12px 0 #665142)}.scene.nagoya{background:linear-gradient(180deg,#dfe9e9,#ecdcc9 72%,#9aaf9d)}.scene.nagoya:after{background:#8ba18f}.scene.nagoya:before{right:26%;top:35px;width:76px;height:92px;border-radius:5px;background:#eee6d1;box-shadow:0 10px 20px #57685833}.scene.nagoya:after{background:#879d8b}.scene.airport{background:linear-gradient(180deg,#d7e9ed,#f4e5cb 70%,#94acaa)}.scene.airport:after{background:#8ca5a1}.scene.airport:before{right:20%;top:45px;width:150px;height:46px;border-radius:40% 60% 40% 60%;background:#fff7e9;transform:rotate(-8deg);box-shadow:40px 20px 0 -17px #879b99}
+    .content-grid{display:grid;grid-template-columns:minmax(0,1.45fr) minmax(260px,.8fr);gap:26px}.section-title{font-size:.95rem;letter-spacing:.06em;margin:0 0 14px;color:#617466}.timeline{position:relative;margin-left:8px}.timeline:before{content:"";position:absolute;top:8px;bottom:10px;left:72px;width:1px;background:#e5ddcf}.item{position:relative;display:grid;grid-template-columns:60px 1fr;gap:26px;padding:0 0 18px}.item:before{content:"";position:absolute;left:68px;top:8px;width:9px;height:9px;border-radius:50%;background:#c28565;border:2px solid #fff;box-shadow:0 0 0 1px #c28565}.time{font-size:.79rem;font-weight:700;color:#8a755e;padding-top:1px}.item h4{margin:0;font-size:.91rem;font-weight:700}.item p{font-size:.82rem;color:var(--muted);margin:2px 0 0}.ride-card,.tip-card{border-radius:15px;padding:17px 18px;margin-bottom:14px;background:#f4f6f0;border:1px solid #e7ebdf}.ride-card{background:#f7f0e5;border-color:#f0e4d1}.card-kicker{font-size:.72rem;letter-spacing:.1em;color:#92775d;font-weight:700}.ride-card h3,.tip-card h3{font-size:.98rem;margin:4px 0 8px}.ride-line{display:flex;justify-content:space-between;gap:12px;font-size:.82rem;padding:6px 0;border-top:1px solid #e8ddcb}.ride-line strong{white-space:nowrap;color:#6d806e}.recommend{display:grid;gap:10px}.rec{padding:13px 14px;border:1px solid var(--line);border-radius:13px;background:#fffdfa}.rec b{display:block;font-size:.86rem}.rec span{display:block;color:var(--muted);font-size:.78rem;margin-top:2px}.note{padding:13px 15px;border-left:3px solid var(--gold);background:#fcf7ea;border-radius:0 11px 11px 0;color:#716754;font-size:.8rem;margin-top:14px}.links{font-size:.76rem;color:var(--muted);margin-top:18px}.links a{margin-right:10px}.footer{padding:17px 28px;background:#f7f3eb;color:#7c8075;font-size:.77rem;display:flex;justify-content:space-between;gap:15px}.toast{font-size:.78rem;color:#78827a}.mobile-hint{display:none}
+    @media(max-width:760px){.hero{padding:32px 20px 54px}.scenery{right:-25px;opacity:.4;width:300px}.hero p{max-width:470px}.date-nav{grid-template-columns:repeat(5,minmax(60px,1fr))}.day-tab{padding:13px 3px}.day-tab .short{font-size:.65rem}.overview{padding:16px;align-items:flex-start;flex-direction:column;gap:8px}.panel{padding:22px 17px}.content-grid{grid-template-columns:1fr;gap:12px}.scene{height:145px}.timeline:before{left:63px}.item{grid-template-columns:51px 1fr;gap:25px}.item:before{left:59px}.footer{padding:15px 18px;flex-direction:column}.mobile-hint{display:block;padding:8px 16px;background:#f7f3eb;color:#899087;font-size:.72rem}}
+    @media(prefers-reduced-motion:reduce){*,*:before,*:after{scroll-behavior:auto!important;animation:none!important;transition:none!important}}
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-inner">
+      <div class="eyebrow">FAMILY JOURNEY · JAPAN, CHŪBU</div>
+      <h1>慢慢去旅行<br>名古屋・下呂・高山</h1>
+      <p>和爸媽一起，把五天走成舒服的步調。泡一晚溫泉、住兩晚高山，再回名古屋看夜景、帶伴手禮回家。</p>
+      <div class="trip-meta"><span class="pill">2027.05.07 — 05.11</span><span class="pill">6 位家人同行</span><span class="pill">5 天 4 夜・免自駕</span></div>
+    </div>
+    <div class="scenery" aria-hidden="true"><i class="sun"></i><i class="hill one"></i><i class="hill two"></i><i class="castle"></i></div>
+  </header>
+  <main>
+    <section class="shell" aria-label="每日行程">
+      <nav class="date-nav" role="tablist" aria-label="選擇行程日期">
+        <button class="day-tab" role="tab" id="tab-0" aria-controls="day-0" aria-selected="true" tabindex="0" data-day="0"><span class="date">05.07</span><span class="dow">週五</span><span class="short">抵達・下呂</span></button>
+        <button class="day-tab" role="tab" id="tab-1" aria-controls="day-1" aria-selected="false" tabindex="-1" data-day="1"><span class="date">05.08</span><span class="dow">週六</span><span class="short">下呂・高山</span></button>
+        <button class="day-tab" role="tab" id="tab-2" aria-controls="day-2" aria-selected="false" tabindex="-1" data-day="2"><span class="date">05.09</span><span class="dow">週日</span><span class="short">白川鄉</span></button>
+        <button class="day-tab" role="tab" id="tab-3" aria-controls="day-3" aria-selected="false" tabindex="-1" data-day="3"><span class="date">05.10</span><span class="dow">週一</span><span class="short">高山・名古屋</span></button>
+        <button class="day-tab" role="tab" id="tab-4" aria-controls="day-4" aria-selected="false" tabindex="-1" data-day="4"><span class="date">05.11</span><span class="dow">週二</span><span class="short">返程</span></button>
+      </nav>
+      <div class="overview"><div class="route" id="route">中部國際機場 <span>→</span> 下呂溫泉</div><div class="drive-total" id="total">車上約 2 小時 10 分–2 小時 40 分</div></div>
+      <div class="mobile-hint">點選上方日期，切換當日安排</div>
+
+      <article class="panel active" id="day-0" role="tabpanel" aria-labelledby="tab-0">
+        <div class="day-heading"><div class="day-number">01</div><div><h2>抵達中部，直奔下呂泡湯</h2><p>搭機抵達後轉往溫泉鄉，第一晚把行程留給休息。</p></div></div>
+        <div class="scene gero"><span class="label">GERO ONSEN · 山間溫泉小鎮</span></div>
+        <div class="content-grid"><div><h3 class="section-title">今日時間表</h3><div class="timeline">
+          <div class="item"><div class="time">12:55</div><div><h4>抵達中部國際機場</h4><p>預留出關、領行李、上洗手間與 6 人集合時間。</p></div></div>
+          <div class="item"><div class="time">14:15</div><div><h4>搭名鐵前往名古屋</h4><p>μ-SKY 現行車程約 29 分鐘，另計候車時間。</p></div></div>
+          <div class="item"><div class="time">15:00</div><div><h4>轉乘 JR 名古屋站</h4><p>步行、買水與簡單餐點；團體先集合再進月台。</p></div></div>
+          <div class="item"><div class="time">約 15:30</div><div><h4>特急「飛驒」前往下呂</h4><p>實際出發與抵達時刻待 2027 年班表確認。</p></div></div>
+          <div class="item"><div class="time">17:30–18:30</div><div><h4>旅館接駁、入住與晚餐</h4><p>先確認旅館最晚入席時間；抵達晚了可能影響會席晚餐。</p></div></div>
+        </div></div><aside><div class="ride-card"><div class="card-kicker">今日移動時間</div><h3>約 2 小時 45 分–3 小時 30 分</h3><div class="ride-line"><span>名鐵車程</span><strong>29–38 分</strong></div><div class="ride-line"><span>名鐵轉 JR 步行</span><strong>10–15 分</strong></div><div class="ride-line"><span>JR 特急「飛驒」</span><strong>約 1 小時 40 分–2 小時</strong></div><div class="ride-line"><span>候車／轉乘緩衝</span><strong>約 25–50 分</strong></div></div>
+          <div class="recommend"><div class="rec"><b>住宿｜下呂溫泉 水明館</b><span>可詢問接駁、6 人房型與晚餐最晚入席時間。</span></div><div class="rec"><b>晚餐｜旅館會席料理</b><span>抵達日不另排外出用餐，訂房時確認晚到處理方式。</span></div></div><div class="note">時間從航班落地後開始估算，不含入境與等行李。若旅館不能保留晚餐，建議考慮第一晚住名古屋。</div></aside></div>
+      </article>
+
+      <article class="panel" id="day-1" role="tabpanel" aria-labelledby="tab-1" hidden>
+        <div class="day-heading"><div class="day-number">02</div><div><h2>下呂慢慢走，再到高山</h2><p>上午泡湯街散步，午後入住高山，晚上吃飛驒牛。</p></div></div>
+        <div class="scene takayama"><span class="label">TAKAYAMA · 木造街屋與山城日常</span></div>
+        <div class="content-grid"><div><h3 class="section-title">今日時間表</h3><div class="timeline">
+          <div class="item"><div class="time">07:30</div><div><h4>旅館早餐</h4><p>早餐後整理行李，退房並寄放大件行李。</p></div></div>
+          <div class="item"><div class="time">09:00</div><div><h4>下呂溫泉街散策</h4><p>挑平緩路段走走、找足湯休息，不必把景點塞滿。</p></div></div>
+          <div class="item"><div class="time">10:30</div><div><h4>回旅館取行李，前往車站</h4><p>預留集合與上洗手間時間。</p></div></div>
+          <div class="item"><div class="time">約 11:00</div><div><h4>特急「飛驒」前往高山</h4><p>車程約 45–55 分鐘，班次待確認。</p></div></div>
+          <div class="item"><div class="time">12:00–13:30</div><div><h4>午餐、寄放行李</h4><p>選高山站周邊餐廳，方便 6 人一起用餐與移動。</p></div></div>
+          <div class="item"><div class="time">13:30–17:00</div><div><h4>三町老街慢逛</h4><p>老街、甜點和古民家咖啡店；留意店家打烊時間。</p></div></div>
+          <div class="item"><div class="time">18:00</div><div><h4>飛驒牛晚餐</h4><p>6 人建議先訂位，確認能否安排同桌。</p></div></div>
+        </div></div><aside><div class="ride-card"><div class="card-kicker">今日移動時間</div><h3>搭車約 45–55 分鐘</h3><div class="ride-line"><span>下呂 → 高山 JR</span><strong>45–55 分</strong></div><div class="ride-line"><span>站內步行／候車</span><strong>約 20–40 分</strong></div><div class="ride-line"><span>整段交通預留</span><strong>約 1 小時 5 分–1 小時 35 分</strong></div></div><div class="recommend"><div class="rec"><b>住宿｜東急 STAY 飛驒高山</b><span>近高山站，可詢問 6 人房間配置與行李寄放。</span></div><div class="rec"><b>住宿備選｜高山綠色飯店</b><span>有館內溫泉與較完整設施，確認房型、餐食及交通方式。</span></div><div class="rec"><b>美食｜味藏天國／丸明</b><span>飛驒牛餐廳熱門，先確認團體訂位規則。</span></div></div><div class="note">景點步行時間不算在搭車時間內；爸媽若需要多休息，可縮短老街範圍。</div></aside></div>
+      </article>
+
+      <article class="panel" id="day-2" role="tabpanel" aria-labelledby="tab-2" hidden>
+        <div class="day-heading"><div class="day-number">03</div><div><h2>白川鄉合掌村一日散步</h2><p>大行李留在高山，巴士座位先訂好，村內保留彈性。</p></div></div>
+        <div class="scene village"><span class="label">SHIRAKAWA-GO · 合掌屋與山村風景</span></div>
+        <div class="content-grid"><div><h3 class="section-title">今日時間表</h3><div class="timeline">
+          <div class="item"><div class="time">07:00</div><div><h4>早餐、準備隨身包</h4><p>大行李留在高山飯店；帶水、薄外套與少量現金。</p></div></div>
+          <div class="item"><div class="time">08:30</div><div><h4>到高山濃飛巴士中心</h4><p>提早集合，確認 6 人回程票與乘車位置。</p></div></div>
+          <div class="item"><div class="time">約 09:00</div><div><h4>巴士前往白川鄉</h4><p>單程約 50 分鐘；精確班次以預約車票為準。</p></div></div>
+          <div class="item"><div class="time">10:00–14:00</div><div><h4>荻町聚落、展望台與午餐</h4><p>依長輩體力調整步行，展望台交通和開放狀況出發前再查。</p></div></div>
+          <div class="item"><div class="time">約 14:00–15:30</div><div><h4>搭巴士返回高山</h4><p>回程務必使用已訂妥的班次，避免週日候補不成。</p></div></div>
+          <div class="item"><div class="time">16:00 後</div><div><h4>飯店休息、晚餐</h4><p>回高山後留休息時間，晚餐可選在地料理或居酒屋。</p></div></div>
+        </div></div><aside><div class="ride-card"><div class="card-kicker">今日移動時間</div><h3>巴士約 1 小時 40 分</h3><div class="ride-line"><span>高山 → 白川鄉</span><strong>約 50 分</strong></div><div class="ride-line"><span>白川鄉 → 高山</span><strong>約 50 分</strong></div><div class="ride-line"><span>候車與集合</span><strong>約 35–60 分</strong></div><div class="ride-line"><span>整段交通預留</span><strong>約 2 小時 15 分–2 小時 40 分</strong></div></div><div class="recommend"><div class="rec"><b>午餐｜村內朴葉味噌定食</b><span>選能讓 6 人稍作休息的店家，熱門店可能需排隊。</span></div><div class="rec"><b>景色｜荻町合掌聚落</b><span>5 月水田倒映景色視農作進度而定，當作驚喜就好。</span></div></div><div class="note">高山—白川鄉巴士部分班次採預約制。先訂去回程，再決定村內停留時段；不要依舊版網路時刻表買票。</div></aside></div>
+      </article>
+
+      <article class="panel" id="day-3" role="tabpanel" aria-labelledby="tab-3" hidden>
+        <div class="day-heading"><div class="day-number">04</div><div><h2>朝市道早安，回名古屋看夜景</h2><p>中午前後搭車南下，晚上只挑榮商圈重點慢慢逛。</p></div></div>
+        <div class="scene nagoya"><span class="label">NAGOYA · 綠洲 21 與城市燈火</span></div>
+        <div class="content-grid"><div><h3 class="section-title">今日時間表</h3><div class="timeline">
+          <div class="item"><div class="time">06:45</div><div><h4>早餐</h4><p>早起吃早餐，之後散步去朝市。</p></div></div>
+          <div class="item"><div class="time">07:30–09:00</div><div><h4>宮川朝市</h4><p>逛市集、買小點心；商品與營業攤位依當日狀況。</p></div></div>
+          <div class="item"><div class="time">09:00–10:00</div><div><h4>回飯店取行李、退房</h4><p>若有行李配送，確認寄送憑證與名古屋飯店收件。</p></div></div>
+          <div class="item"><div class="time">10:00–11:15</div><div><h4>老街補逛或提早午餐</h4><p>留在車站附近，不再排需要長距離移動的景點。</p></div></div>
+          <div class="item"><div class="time">約 12:00</div><div><h4>特急「飛驒」回名古屋</h4><p>車程約 2 小時 20 分–2 小時 40 分；班次待確認。</p></div></div>
+          <div class="item"><div class="time">15:00–16:00</div><div><h4>名古屋飯店入住或寄放行李</h4><p>選名鐵名古屋站或名古屋站附近，方便隔天去機場。</p></div></div>
+          <div class="item"><div class="time">17:30–21:00</div><div><h4>榮商圈、晚餐與夜景</h4><p>綠洲 21、MIRAI TOWER、蓬萊軒擇重點安排，預留休息。</p></div></div>
+        </div></div><aside><div class="ride-card"><div class="card-kicker">今日移動時間</div><h3>搭車約 2 小時 30 分–3 小時</h3><div class="ride-line"><span>高山 → 名古屋 JR</span><strong>2 小時 20–40 分</strong></div><div class="ride-line"><span>候車緩衝</span><strong>約 20–30 分</strong></div><div class="ride-line"><span>名古屋站 ↔ 榮地鐵</span><strong>約 10–20 分</strong></div></div><div class="recommend"><div class="rec"><b>住宿｜名古屋名鐵格蘭飯店</b><span>名古屋站周邊，方便隔天搭名鐵；訂房前確認 6 人房型。</span></div><div class="rec"><b>晚餐｜熱田蓬萊軒 松坂屋店</b><span>人氣店家，出發前確認營業、候位或訂位方式。</span></div><div class="rec"><b>夜景｜綠洲 21、水之宇宙船</b><span>戶外散步型景點，可依天氣與體力調整停留時間。</span></div></div><div class="note">JR 特急單程是本趟最長車程。可考慮把大行李提前寄到名古屋飯店，車上只帶過夜小包。</div></aside></div>
+      </article>
+
+      <article class="panel" id="day-4" role="tabpanel" aria-labelledby="tab-4" hidden>
+        <div class="day-heading"><div class="day-number">05</div><div><h2>帶著名古屋的味道回家</h2><p>早上出發去機場，採購後從容報到與登機。</p></div></div>
+        <div class="scene airport"><span class="label">CENTRAIR · 中部國際機場</span></div>
+        <div class="content-grid"><div><h3 class="section-title">今日時間表</h3><div class="timeline">
+          <div class="item"><div class="time">07:00</div><div><h4>早餐、整理行李</h4><p>確認護照、機票、托運行李與家人隨身物品。</p></div></div>
+          <div class="item"><div class="time">08:15</div><div><h4>離開飯店前往名鐵站</h4><p>提早集合，確認 6 人和行李數量再進站。</p></div></div>
+          <div class="item"><div class="time">約 08:30</div><div><h4>名鐵前往中部機場</h4><p>μ-SKY 現行車程約 29 分鐘；班次、票種與時刻待確認。</p></div></div>
+          <div class="item"><div class="time">09:15–10:30</div><div><h4>機場採購、確認櫃檯</h4><p>依航空公司櫃檯開放時間，必要時先報到托運再購物。</p></div></div>
+          <div class="item"><div class="time">10:30–12:30</div><div><h4>報到、托運、安檢與午餐</h4><p>預留 6 人排隊與通關時間，最晚約 12:30 到登機門附近。</p></div></div>
+          <div class="item"><div class="time">13:45</div><div><h4>班機起飛返台</h4><p>結束五天四夜的家人旅行。</p></div></div>
+        </div></div><aside><div class="ride-card"><div class="card-kicker">今日移動時間</div><h3>搭車約 30–40 分鐘</h3><div class="ride-line"><span>名鐵 μ-SKY</span><strong>約 29 分</strong></div><div class="ride-line"><span>其他直達車種</span><strong>約 35–40 分</strong></div><div class="ride-line"><span>等車緩衝</span><strong>約 10–20 分</strong></div><div class="ride-line"><span>車程＋等車</span><strong>約 40–60 分</strong></div></div><div class="recommend"><div class="rec"><b>伴手禮｜蝦仙貝之里、名古屋銘品館</b><span>商店營業時間可能調整，出發前查機場官方資訊。</span></div><div class="rec"><b>名古屋喫茶早餐｜Komeda’s Coffee</b><span>分店營業時間與早餐供應依店舖而異，前晚先確認。</span></div></div><div class="note">從 09:15 抵達機場至 13:45 起飛約 4 小時 30 分。購物安排要服從航空公司報到櫃檯開放時間。</div></aside></div>
+      </article>
+      <footer class="footer"><span>慢慢走、一起看風景。行程時間均為概估，2027 班次與營業資訊出發前再確認。</span><span>更新日期：2026.10</span></footer>
+    </section>
+    <p class="links">交通參考：<a href="https://www.meitetsu.co.jp/train/centrair/guidance/" target="_blank" rel="noopener">名鐵機場交通</a><a href="https://railway.jr-central.co.jp/tickets/hida-area/" target="_blank" rel="noopener">JR 東海飛驒區域周遊券</a><a href="https://www.nouhibus.co.jp/route_bus/shirakawago/" target="_blank" rel="noopener">濃飛巴士白川鄉線</a><a href="https://kankou.shirakawa-go.org/1155.htm" target="_blank" rel="noopener">白川鄉官方交通資訊</a></p>
+  </main>
+  <script>
+    const tabs=[...document.querySelectorAll('.day-tab')],panels=[...document.querySelectorAll('.panel')];
+    const routes=[
+      ['中部國際機場','下呂溫泉','車上約 2 小時 10 分–2 小時 40 分'],
+      ['下呂溫泉','高山','車上約 45–55 分鐘'],
+      ['高山','白川鄉','巴士車上約 1 小時 40 分（來回）'],
+      ['高山','名古屋・榮','車上約 2 小時 30 分–3 小時'],
+      ['名古屋','中部國際機場','車上約 30–40 分鐘']
+    ];
+    function selectDay(i,focus=false){tabs.forEach((t,n)=>{const on=n===i;t.setAttribute('aria-selected',String(on));t.tabIndex=on?0:-1;panels[n].classList.toggle('active',on);panels[n].hidden=!on});document.querySelector('#route').innerHTML=routes[i][0]+' <span>→</span> '+routes[i][1];document.querySelector('#total').textContent=routes[i][2];if(focus)tabs[i].focus()}
+    tabs.forEach((t,i)=>t.addEventListener('click',()=>selectDay(i)));
+    document.querySelector('.date-nav').addEventListener('keydown',e=>{let i=tabs.indexOf(document.activeElement);if(e.key==='ArrowRight'||e.key==='ArrowLeft'){e.preventDefault();i=(i+(e.key==='ArrowRight'?1:4))%5;selectDay(i,true)}else if(e.key==='Home'){e.preventDefault();selectDay(0,true)}else if(e.key==='End'){e.preventDefault();selectDay(4,true)}});
+  </script>
+</body>
+</html>
